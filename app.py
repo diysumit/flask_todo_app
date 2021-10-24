@@ -71,4 +71,4 @@ def update(id):
 
 #executing app with debug on
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=80)
